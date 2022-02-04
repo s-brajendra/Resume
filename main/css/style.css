@@ -2,7 +2,9 @@
     border: 0.5px solid black;
 } */
 body{
-    background-image: url('../images/clg_img.jpg');
+ 
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/clg_img.jpg');
+   
     padding-left: 8vw;
     padding-right: 8vw;
     background-repeat: no-repeat;
@@ -21,7 +23,7 @@ body{
 #child1{
    
     
-    background-image: url('../images/1.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +57,7 @@ body{
 
 #child2{
     display: grid;
-    background-image: url('../images/2.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/2.png');
     justify-content: center;
     grid-template-columns: 45% 55%;
     
@@ -80,7 +82,7 @@ body{
 }
 #hire-me-button{
     
-    background-image: url('../images/22.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/22.png');
   
     width: fit-content;
     height: auto;
@@ -92,7 +94,7 @@ width: 20vw;
 }
 
 #child3{
-    background-image: url('../images/3.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/3.png');
 
 }
 #child3 h5{
@@ -126,7 +128,7 @@ width: 20vw;
 
 
 #child4{
-    background-image: url('../images/4.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/4.png');
 
 }
 
@@ -160,7 +162,7 @@ width: 20vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
     display: grid;
-    background-image: url('../images/7.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/7.png');
     grid-template-areas: 
     'Work_exp edu'
     'Work_exp edu'
@@ -172,23 +174,23 @@ width: 20vw;
 }
 #child5-1{
     grid-area: Work_exp;
-    background-image: url('../images/71.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/71.png');
     padding: 10px;
 
 }
 #child5-2{
     grid-area: edu;
-    background-image: url('../images/71.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/71.png');
     padding: 10px;
 }
 
 #child6{
-    background-image: url('../images/6.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/6.png');
 
 }
 
 #child7{
-    background-image: url('../images/7.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/7.png');
     padding-left:7vw;
     padding-right:7vw;
     padding-top: 2vw;
@@ -207,24 +209,24 @@ width: 20vw;
 #child7-1{
     display: grid;
     grid-area: message;
-    background-image: url('../images/71.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/71.png');
     padding: 10px;
 }
 #child7-2{
     grid-area: address;
-    background-image: url('../images/72.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/72.png');
 }
 #child7-3{
     grid-area: phone;
-    background-image: url('../images/73.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/73.png');
 }
 #child7-4{
     grid-area: web;
-    background-image: url('../images/74.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/74.png');
 }
 
 #child8{
-    background-image: url('../images/8.png');
+    background-image: url('https://raw.githubusercontent.com/s-brajendra/RESUME/master/main/images/8.png');
   
 
 
