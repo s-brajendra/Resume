@@ -1,0 +1,154 @@
+/* *{
+    border: 0.5px solid black;
+} */
+body{
+    background-image: url(../images/clg_img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon{
+    width: 35px;
+}
+#child1-2{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+#child1-1 hr{ width:100px 
+}
+#child1-1b{
+    display: flex;
+    justify-content: end;
+}
+#child1 {
+    background-image: url("../images/1.png");
+    background
+    
+}
+
+#child2{
+    background-image: url("../images/2.png");
+
+}
+#child2-2{
+    flex-direction: column;
+}
+#child3{
+    flex-direction: column;
+    background-image: url("../images/3.png");
+    
+}
+.centralise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#child4b img{
+    width: 160px;
+    padding-bottom: 20px;
+    
+}
+#child4{
+    background-image:url("../images/1.png") ;
+    background-size: cover;
+    
+}
+.padding-top-bottom{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#child5{
+    background-image: url("../images/1.png");
+}
+#child5-1{
+    padding-top: 20px;
+}
+.inp-box{
+  /* margin-left: 20px;  */
+  background-color: inherit;
+  border: 0.005px solid rgb(196, 196, 175);
+  border-radius: 5px;
+  padding-left:  20px;
+  font: 100;
+  
+}
+#child7{
+    background-image: url("../images/1.png");
+    overflow: hidden;
+}
+#child7-1{
+    padding-top: 20px;
+}
+
+#child8{
+    background-image: url("../images/8.png");
+    height: 100px;
+}
+
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 50px;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+
+
+
+.color-wheat{
+    color: rgb(196, 196, 175);
+}
+.color2{
+    color: #3d5369;
+}
+
+
+.font-zen{
+    "font-family: 'Zen Kurenaido', 'sans-serif';
+}
+
+h2,h3,h4,h5 {
+    font-family: 'Quintessential', "cursive";
+}
+
+#prof{
+    width: 256px;
+}
+
+@keyframes smothing {
+    0% {
+        opacity: 0;
+
+    }
+
+
+    100% {
+        opacity: 0.8;
+    }
+}
+.anim:hover{
+    opacity: 0.96;
+    transition-duration: 0.5s;
+
+}
+
+.anim{
+    
+    animation-name: smothing;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    opacity: 0.8;
+
+}
+
+
