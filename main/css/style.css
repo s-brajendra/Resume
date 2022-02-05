@@ -2,7 +2,7 @@
     border: 0.5px solid black;
 } */
 body{
-    background-image: url(../images/clg_img.jpg);
+    background-image: url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/extra/images/clg_img.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,13 +23,13 @@ body{
     justify-content: end;
 }
 #child1 {
-    background-image: url("../images/1.png");
+    background-image: url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/images/1.png");
     background
     
 }
 
 #child2{
-    background-image: url("../images/2.png");
+    background-image: url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/images/2.png");
 
 }
 #child2-2{
@@ -37,7 +37,7 @@ body{
 }
 #child3{
     flex-direction: column;
-    background-image: url("../images/3.png");
+    background-image: url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/images/3.png");
     
 }
 .centralise{
@@ -52,7 +52,7 @@ body{
     
 }
 #child4{
-    background-image:url("../images/1.png") ;
+    background-image:url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/images/1.png") ;
     background-size: cover;
     
 }
@@ -61,7 +61,7 @@ body{
     padding-bottom: 50px;
 }
 #child5{
-    background-image: url("../images/1.png");
+    background-image: url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/images/1.png");
 }
 #child5-1{
     padding-top: 20px;
@@ -76,7 +76,7 @@ body{
   
 }
 #child7{
-    background-image: url("../images/1.png");
+    background-image: url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/images/1.png");
     overflow: hidden;
 }
 #child7-1{
@@ -84,7 +84,7 @@ body{
 }
 
 #child8{
-    background-image: url("../images/8.png");
+    background-image: url("https://rawcdn.githack.com/s-brajendra/RESUME/2468b67327236b17420f5f98eed323eecaf2a965/main/images/8.png");
     height: 100px;
 }
 
