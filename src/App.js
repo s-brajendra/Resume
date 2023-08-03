@@ -8,6 +8,12 @@ import {
 
 import Home from './pages/Home'
 import Navbar from "./components/Navbar/Navbar";
+
+import Skill from './pages/SkillPage'
+import Project from './pages/Projects'
+import Resume from './pages/Resume'
+import Contacts from './pages/Contact'
+
 import Preloader from "./components/PreLoader"
 import ScrollToTop from "./components/ScrollToTop"
 
@@ -40,6 +46,14 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+
+        <Route path="/skills" element={<Skill />} />
+        <Route path="/projects" element={<Project />} />
+        <Route path="/resume" element={<Home />} />
+        <Route path="/contacts" element={<Home />} />
+        <Route path="/blogs" element={<Home />} />
+
+
         {/* <Route path="*" element={<Navigate to="/"/>} /> */}
       </Routes>
       {/* <Footer /> */}
