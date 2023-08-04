@@ -80,7 +80,9 @@ const About = () => {
               <Col md={12} className="home-about-social">
                 <h1>VISIT ME ON</h1>
                 <p>
-                 For Collaboration <span className="yellow"><a href="https://react-bootstrap.netlify.app/">  click here</a></span>
+                 For Collaboration <span className="yellow">
+                  {/* <a href="https://react-bootstrap.netlify.app/">  click here</a> */}
+                  </span>
                 </p>
                 <ul className="home-about-social-links">
                   <li className="social-icons">
