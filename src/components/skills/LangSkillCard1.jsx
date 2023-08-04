@@ -1,11 +1,11 @@
-import { Height, Padding, Scale } from '@mui/icons-material';
+// import { Height, Padding, Scale } from '@mui/icons-material';
 import Card from 'react-bootstrap/Card';
-import { LiaJava } from "react-icons/lia";
-import { BiLogoPython } from "react-icons/bi";
-import {TbBrandJavascript} from "react-icons/tb";
-import {FaC} from "react-icons/fa6"
-import { TbBrandCpp }from "react-icons/tb"
-import {SiSolidity} from "react-icons/si";
+// import { LiaJava } from "react-icons/lia";
+// import { BiLogoPython } from "react-icons/bi";
+// import {TbBrandJavascript} from "react-icons/tb";
+// import {FaC} from "react-icons/fa6"
+// import { TbBrandCpp }from "react-icons/tb"
+// import {SiSolidity} from "react-icons/si";
 import techstack from "../../assets/Logo"
 
 import Tilt from "react-parallax-tilt";
@@ -14,7 +14,7 @@ import Tilt from "react-parallax-tilt";
 // import { TbBranPiFileHtmldCpp }from "react-icons/pi"
 // import { PiFileCssBold } from "react-icons/pi"
 // import { PiFileHtml } from "react-icons/pi"
-import { SiMysql } from "react-icons/si"
+// import { SiMysql } from "react-icons/si"
 
 
 

@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row,Col } from "react-bootstrap";
-import { Card } from '@mui/material';
+// import { Card } from '@mui/material';
 import SkillCard1 from "../components/skills/LangSkillCard1"
 import SkillCard2 from "../components/skills/LangSkillCard2"
 import SkillCard3 from "../components/skills/LangSkillCard3"
 
-import Tilt from "react-parallax-tilt";
+// import Tilt from "react-parallax-tilt";
 
 
 

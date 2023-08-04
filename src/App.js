@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  // Navigate
 } from "react-router-dom";
 
 import Home from './pages/Home'
@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 import Skill from './pages/SkillPage'
 import Project from './pages/Projects'
-import Resume from './pages/Resume'
+// import Resume from './pages/Resume'
 import Contacts from './pages/Contact'
 
 import Preloader from "./components/PreLoader"

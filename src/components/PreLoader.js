@@ -25,7 +25,7 @@ function PreLoader(props) {
  
 
  }else{
-  var  loader = <div id= "preloader-none"></div>
+   loader = <div id= "preloader-none"></div>
  }
 
 
