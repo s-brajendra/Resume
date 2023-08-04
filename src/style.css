@@ -1,13 +1,15 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgb(51, 62, 177), rgb(0, 0, 0)
+      /* rgb(51, 62, 177), rgb(0, 0, 0)
+       */
+       rgb(5, 8, 40), rgb(1, 4, 39)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
       /* rgba(5, 8, 40, 0.9), rgba(1, 4, 39, 0.925) */
-      rgb(51, 62, 177), rgb(0, 0, 0)
+      rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
     );
   
     --imp-text-color: #7500fa;
@@ -260,7 +262,7 @@ html {
   
   .home-section {
     position: relative;
-    z-index: -1;
+    z-index: -50;
     background-image: var(--image-gradient), url(./assets/home-bg.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -566,10 +568,19 @@ html {
   /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
   color: rgb(239, 239, 239) !important;
   background-color: transparent !important;
-  opacity: 0.7 !important;
+  opacity: 0.8 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
+.linear-grad-on-img{
+  background: linear-gradient(
+    to right, 
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0) 100%)
+}
+
 
 .project-card-body-style {
   padding-top: 0px;

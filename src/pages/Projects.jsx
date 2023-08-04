@@ -3,10 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 
 
-import linkit from "../assets/linkit.png";
-import exp3 from "../assets/exp3.png"
-import p2p from "../assets/p2p.png"
-import kickstart from "../assets/kickstart.png"
+import linkit from "../assets/linkit.jpg";
+import exp3 from "../assets/exp3.jpg"
+import p2p from "../assets/p2p.jpg"
+import stacker from "../assets/stacker.jpg"
+
+
+
 
 const Projects = () => {
   return (
@@ -18,7 +21,7 @@ const Projects = () => {
           Recent Work <strong className="yellow"> </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are my few projects recently I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
@@ -41,7 +44,9 @@ const Projects = () => {
               imgPath={exp3}
               isBlog={false}
               title="Exp3-ELM"
-              description="Multi Armed bandits are the simplest instance of the exploration-exploitation trade-off problem, which is the basic question in reinforcement learning. Multi Armed bandits is a problem in which a fixed limited set of resources must be allocated between competing (alternative) choices in a way that maximizes their expected gain, when each choice's properties are only partially known at the time of allocation, and may become better understood as time passes or by allocating resources to the choice In stochastic multi armed bandit problems the rewards for playing each arm are generated independently from unknown distributions corresponding to each arm. In adversarial multi armed bandit problems a sequence of rewards is generated for each arm by an adversary before the game starts."
+              description="Peer-to-peer carpooling using blockchain is a decentralized system where individuals directly connect to share rides.
+               Blockchain ensures secure, transparent transactions and trustless verification, enabling seamless payment and ride 
+               arrangements without intermediaries"
               ghLink="https://github.com/s-brajendra/Exp-3-EXP3ELM-"
             />
             </Col>
@@ -63,17 +68,17 @@ const Projects = () => {
 
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={stacker}
               isBlog={false}
-              title="LinkIt"
-              description="The Note-to-Web Linking App is an innovative and user-friendly Android application developed in Android Studio that allows users to seamlessly link handwritten or typed notes to specific webpages. The app utilizes the device's camera and sophisticated image processing algorithms to recognize and scan handwritten or printed URLs from the notes"
-              ghLink="https://github.com/s-brajendra/LinkIt"
+              title="Stacker Arcade"
+              description="The Stacker Arcade Game is an exciting course project that aims to recreate the classic arcade game experience in a digital form using Arduino The game is developed For Hardware design Course Project "
+              ghLink="https://github.com/s-brajendra/Stacker-Arcade"
             />
             </Col>
 
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={p2p}
               isBlog={false}
               title="LinkIt"
               description="The Note-to-Web Linking App is an innovative and user-friendly Android application developed in Android Studio that allows users to seamlessly link handwritten or typed notes to specific webpages. The app utilizes the device's camera and sophisticated image processing algorithms to recognize and scan handwritten or printed URLs from the notes"

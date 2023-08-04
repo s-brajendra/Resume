@@ -21,7 +21,7 @@ const SkillPage = () => {
     
     
 
-    <Container style={{height: "100vh"}} fluid  className="skill-section">
+    <Container  fluid  className="skill-section">
       {/* <Particle /> */}
       <Container>
 

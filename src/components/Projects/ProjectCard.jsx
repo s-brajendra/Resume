@@ -8,12 +8,13 @@ import Button from "react-bootstrap/Button";
 
 
 
+
 const CardPrj = (cardObj) => {
   return (
     <Card 
     className="project-card-style"
     >
-      <Card.Img variant="top" 
+      <Card.Img variant="top" className="linear-grad-on-img"
       src= {cardObj.imgPath}
        />
       <Card.Body>
@@ -21,7 +22,7 @@ const CardPrj = (cardObj) => {
         <Card.Text>
           {cardObj.description}
         </Card.Text>
-        <Button variant="primary" href={cardObj.ghLink} target="_blank" >GitHub</Button>
+        <Button style={{  bottom:"5px", justifyItems:"center"}} variant="primary" href={cardObj.ghLink} target="_blank" >GitHub</Button>
       </Card.Body>
     </Card>
   );
