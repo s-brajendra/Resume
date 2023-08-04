@@ -15,7 +15,7 @@ import AboutAnim from "../lottiesComponent/AboutAnim";
 
 const About = () => {
     return (
-        <Container fluid className="home-about-section" id="about">
+        <Container fluid className="home-section" id="about">
           <Container>
             <Row>
 
