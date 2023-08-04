@@ -1,16 +1,9 @@
 // import { Height, Padding, Scale } from '@mui/icons-material';
 import Card from 'react-bootstrap/Card';
-// import { RiReactjsLine } from "react-icons/ri";
-// import { FaNode } from "react-icons/fa6";
 import techstack from "../../assets/Logo"
 import Tilt from "react-parallax-tilt";
 
 
-// import {TbBrandJavascript} from "react-icons/tb";
-// import {SiSolidity} from "react-icons/si";
-// import {SiExpress} from "react-icons/si"
-// import { PiFileCssBold } from "react-icons/pi"
-// import { PiFileHtml } from "react-icons/pi"
 
 
 

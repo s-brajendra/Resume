@@ -1,18 +1,7 @@
 // import { Height, Padding, Scale } from '@mui/icons-material';
 import Card from 'react-bootstrap/Card';
-
-
 import Tilt from "react-parallax-tilt";
-
-
 import techstack from "../../assets/Logo"
-
-
-
-
-
-
-
 
 
 
