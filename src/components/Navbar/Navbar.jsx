@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
+import DogAnim from "../lottiesComponent/DogAnim";
+
 
 
 
@@ -29,8 +31,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/" className="d-flex" style={{height:"100px"}}>
+          <DogAnim  ></DogAnim>
         </Navbar.Brand>
 
         <Navbar.Toggle

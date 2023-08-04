@@ -9,7 +9,7 @@ html {
     --image-gradient: linear-gradient(
       to bottom left,
       /* rgba(5, 8, 40, 0.9), rgba(1, 4, 39, 0.925) */
-      rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
+      rgba(5, 7, 40, 0.87), rgba(5, 7, 39, 0.9)
     );
   
     --imp-text-color: #7500fa;
