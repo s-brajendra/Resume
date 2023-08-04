@@ -25,11 +25,32 @@ const SkillCard =   (cardObj) => {
         <Card.Subtitle className="mb-2 text-muted">{cardObj.subtitle}</Card.Subtitle>
         <Card.Text project-card-style>
         <ul >
-        <li className='skill-list-view'>
+            <li className='skill-list-view'>
                     <Tilt>
                     { techstack.androidstudio}
                     </Tilt>
-                  </li>
+            </li>
+
+            <li className='skill-list-view'>
+                    <Tilt>
+                    { techstack.mongo}
+                    </Tilt>
+            </li>
+            <li className='skill-list-view'>
+                    <Tilt>
+                    { techstack.firebase}
+                    </Tilt>
+            </li>
+            <li className='skill-list-view'>
+                    <Tilt>
+                    { techstack.git}
+                    </Tilt>
+            </li>
+
+
+
+
+
           </ul>
         </Card.Text>
 

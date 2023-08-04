@@ -5,6 +5,9 @@ import SkillCard1 from "../components/skills/LangSkillCard1"
 import SkillCard2 from "../components/skills/LangSkillCard2"
 import SkillCard3 from "../components/skills/LangSkillCard3"
 
+import Tilt from "react-parallax-tilt";
+
+
 
 
 // import Techstack from "../components/Skillset/Techstack";
@@ -30,6 +33,7 @@ const SkillPage = () => {
          <br />
 
          <Row style={{ justifyContent: "center", paddingBottom: "0px" }}>
+          
           <Col md={4} className="project-card">
             <SkillCard1/>
           </Col>
