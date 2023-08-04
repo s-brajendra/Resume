@@ -14,11 +14,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
   return (
 
-    <Container fluid className="home-about-section" id="about">
+    <Container style={{height: "100vh"}} fluid className="home-about-section" id="about">
       <Container>
 
       <Row>
     <Col md={12} className="home-about-social">
+      
       <h1>VISIT ME ON</h1>
 
       <ul className="home-about-social-links">
@@ -68,7 +69,9 @@ const Contact = () => {
         </li>
       </ul>
       <p>
-       For Collaboration <span className="yellow"><a href="https://react-bootstrap.netlify.app/">  click here</a></span>
+       for Collaboration visit <span className="yellow">
+        {/* <a href="https://react-bootstrap.netlify.app/">  click here</a> */}
+        </span>
       </p>
     </Col>
   </Row>

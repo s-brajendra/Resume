@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
+
 import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -9,6 +10,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import AboutAnim from "../lottiesComponent/AboutAnim";
 
 
 const About = () => {
@@ -16,11 +18,7 @@ const About = () => {
         <Container fluid className="home-about-section" id="about">
           <Container>
             <Row>
-            <Col md={4} className="myAvtar">
-                <Tilt>
-                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
-                </Tilt>
-              </Col>
+
 
               <Col md={8} className="home-about-description">
                 <h1 style={{ fontSize: "2.6em" }}>
@@ -68,7 +66,13 @@ const About = () => {
 
 
               </Col>
-              {/* // img removed */}
+         
+
+              <Col md={4} className="myAvtar">
+                <Tilt>
+                  <AboutAnim></AboutAnim>
+                </Tilt>
+              </Col>
 
 
             </Row>
