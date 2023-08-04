@@ -3,7 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 
 
-import kickstart from "../assets/kickstart.png";
+import linkit from "../assets/linkit.png";
+import exp3 from "../assets/exp3.png"
+import p2p from "../assets/p2p.png"
+import kickstart from "../assets/kickstart.png"
 
 const Projects = () => {
   return (
@@ -20,35 +23,43 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
 
-          
+          {/* lnkiit */}
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={linkit}
               isBlog={false}
               title="LinkIt"
               description="The Note-to-Web Linking App is an innovative and user-friendly Android application developed in Android Studio that allows users to seamlessly link handwritten or typed notes to specific webpages. The app utilizes the device's camera and sophisticated image processing algorithms to recognize and scan handwritten or printed URLs from the notes"
               ghLink="https://github.com/s-brajendra/LinkIt"
             />
+
+
+            {/*  EXP3ELM */}
             </Col>
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={exp3}
               isBlog={false}
-              title="LinkIt"
-              description="The Note-to-Web Linking App is an innovative and user-friendly Android application developed in Android Studio that allows users to seamlessly link handwritten or typed notes to specific webpages. The app utilizes the device's camera and sophisticated image processing algorithms to recognize and scan handwritten or printed URLs from the notes"
-              ghLink="https://github.com/s-brajendra/LinkIt"
+              title="Exp3-ELM"
+              description="Multi Armed bandits are the simplest instance of the exploration-exploitation trade-off problem, which is the basic question in reinforcement learning. Multi Armed bandits is a problem in which a fixed limited set of resources must be allocated between competing (alternative) choices in a way that maximizes their expected gain, when each choice's properties are only partially known at the time of allocation, and may become better understood as time passes or by allocating resources to the choice In stochastic multi armed bandit problems the rewards for playing each arm are generated independently from unknown distributions corresponding to each arm. In adversarial multi armed bandit problems a sequence of rewards is generated for each arm by an adversary before the game starts."
+              ghLink="https://github.com/s-brajendra/Exp-3-EXP3ELM-"
             />
             </Col>
 
+
+            {/* car pooling */}
             <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={p2p}
               isBlog={false}
-              title="LinkIt"
-              description="The Note-to-Web Linking App is an innovative and user-friendly Android application developed in Android Studio that allows users to seamlessly link handwritten or typed notes to specific webpages. The app utilizes the device's camera and sophisticated image processing algorithms to recognize and scan handwritten or printed URLs from the notes"
-              ghLink="https://github.com/s-brajendra/LinkIt"
+              title="p2p-car-Pooling"
+              description="Peer-to-peer carpooling using blockchain is a decentralized system where individuals directly connect to share rides. Blockchain ensures secure, transparent transactions and trustless verification, enabling seamless payment and ride arrangements without intermediaries"
+              ghLink="https://github.com/s-brajendra/P2P-Car-Pooling"
             />
             </Col>
+
+
+
 
             <Col md={4} className="project-card">
             <ProjectCard

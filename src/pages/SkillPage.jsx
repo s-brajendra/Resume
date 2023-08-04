@@ -1,6 +1,10 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row,Col } from "react-bootstrap";
 import { Card } from '@mui/material';
+import SkillCard1 from "../components/skills/LangSkillCard1"
+import SkillCard2 from "../components/skills/LangSkillCard2"
+import SkillCard3 from "../components/skills/LangSkillCard3"
+
 
 
 // import Techstack from "../components/Skillset/Techstack";
@@ -14,13 +18,33 @@ const SkillPage = () => {
     
     
 
-    <Container fluid className="about-section">
+    <Container fluid className="skill-section">
       {/* <Particle /> */}
       <Container>
+
+
         
-         <h1 className="project-heading">
-          Professional <strong className="yellow">Skillset </strong>
-         </h1>
+         <h4 className="project-heading">
+          Technical Skills and interest  <strong className="yellow"></strong>
+         </h4>
+         <br />
+
+         <Row style={{ justifyContent: "center", paddingBottom: "0px" }}>
+          <Col md={4} className="project-card">
+            <SkillCard1/>
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <SkillCard2/>
+          </Col>
+          <Col md={3} className="project-card">
+            <SkillCard3/>
+          </Col>
+         </Row>
+
+
+        
+         
 
       </Container>
 
