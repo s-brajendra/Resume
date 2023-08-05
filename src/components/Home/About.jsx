@@ -1,8 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
-
-import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -13,9 +10,11 @@ import { FaLinkedinIn } from "react-icons/fa";
 import AboutAnim from "../lottiesComponent/AboutAnim";
 
 
+s
+
 const About = () => {
     return (
-        <Container fluid className="home-section" id="about">
+        <Container fluid className="about-section" id="about">
           <Container>
             <Row>
 
@@ -84,6 +83,7 @@ const About = () => {
                   {/* <a href="https://react-bootstrap.netlify.app/">  click here</a> */}
                   </span>
                 </p>
+
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a

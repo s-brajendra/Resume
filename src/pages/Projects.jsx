@@ -1,12 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
-
-
 import linkit from "../assets/linkit.jpg";
 import exp3 from "../assets/exp3.jpg"
 import p2p from "../assets/p2p.jpg"
-import stacker from "../assets/stacker.jpg"
+// import stacker from "../assets/stacker.jpg"
 
 
 
@@ -44,9 +42,7 @@ const Projects = () => {
               imgPath={exp3}
               isBlog={false}
               title="Exp3-ELM"
-              description="Peer-to-peer carpooling using blockchain is a decentralized system where individuals directly connect to share rides.
-               Blockchain ensures secure, transparent transactions and trustless verification, enabling seamless payment and ride 
-               arrangements without intermediaries"
+              description="comprehensive evaluation and analysis of the EXP3 algorithm's performance within stochastic environments, contributing valuable insights into its applicability and effectiveness. This project required a understanding of both reinforcement learning principles and stochastic systems."
               ghLink="https://github.com/s-brajendra/Exp-3-EXP3ELM-"
             />
             </Col>
@@ -66,7 +62,7 @@ const Projects = () => {
 
 
 
-            <Col md={4} className="project-card">
+            {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={stacker}
               isBlog={false}
@@ -74,9 +70,9 @@ const Projects = () => {
               description="The Stacker Arcade Game is an exciting course project that aims to recreate the classic arcade game experience in a digital form using Arduino The game is developed For Hardware design Course Project "
               ghLink="https://github.com/s-brajendra/Stacker-Arcade"
             />
-            </Col>
+            </Col> */}
 
-            <Col md={4} className="project-card">
+            {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={p2p}
               isBlog={false}
@@ -84,7 +80,7 @@ const Projects = () => {
               description="The Note-to-Web Linking App is an innovative and user-friendly Android application developed in Android Studio that allows users to seamlessly link handwritten or typed notes to specific webpages. The app utilizes the device's camera and sophisticated image processing algorithms to recognize and scan handwritten or printed URLs from the notes"
               ghLink="https://github.com/s-brajendra/LinkIt"
             />
-            </Col>
+            </Col> */}
 
 
 
