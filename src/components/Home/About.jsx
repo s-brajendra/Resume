@@ -10,7 +10,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import AboutAnim from "../lottiesComponent/AboutAnim";
 
 
-s
 
 const About = () => {
     return (
