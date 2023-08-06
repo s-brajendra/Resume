@@ -76,12 +76,15 @@ const About = () => {
             </Row>
             <Row>
               <Col md={12} className="home-about-social">
-                <h1>VISIT ME ON</h1>
-                <p>
-                 For Collaboration <span className="yellow">
-                  {/* <a href="https://react-bootstrap.netlify.app/">  click here</a> */}
-                  </span>
+           
+                <p style={{ textSizeAdjust:"auto"}}>
+              
+                  <a
+                  fontSize = "100px" 
+                  target="_blank" id = "collaborate" href="https://forms.gle/7yDDMoyFyapKafYJ7">  join me in collaboration for a shared endeavor </a>
+           
                 </p>
+                <br /> 
 
                 <ul className="home-about-social-links">
                   <li className="social-icons">
