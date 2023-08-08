@@ -17,9 +17,7 @@ class TechnologyStack {
     //   this._java = java;
     //   this._kotlin = kotlin;
     // }
-    constructor() {
 
-      }
   
     // Getters
     get html() {

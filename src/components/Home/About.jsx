@@ -20,7 +20,9 @@ const About = () => {
 
               <Col md={8} className="home-about-description">
                 <h1 style={{ fontSize: "2.6em" }}>
-                   <span className="yellow"> About Myself </span> 
+                   {/* <span className="yellow"> */}
+                     About Myself
+                      {/* </span>  */}
                 </h1>
                 <p className="home-about-body" >
                   
