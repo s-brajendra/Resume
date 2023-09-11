@@ -15,8 +15,8 @@
 // const resumeLink = `https://raw.githubusercontent.com/19sajib/portfolio/main/src/assets/sajib.pdf`
 
 
-const Resume = () => {
-  <h1>resume</h1>
+// const Resume = () => {
+  // <h1>resume</h1>
   // const [width, setWidth] = useState(1200);
 
 
@@ -62,6 +62,44 @@ const Resume = () => {
   //   //   </Container>
   //   // </div>
   // )
+// }
+
+// export default Resume
+
+
+import React from 'react'
+import { Container,Row,Col} from "react-bootstrap";
+// import Particle from '../components/Particle';
+// import ContactForm from '../components/Contact/Contact';
+// import Social from '../components/Contact/Social';
+
+
+
+const Resume = () => {
+  return (
+
+    <Container style={{height: "100vh"}} fluid className="home-about-section" id="about">
+      <Container>
+
+      <Row>
+    <Col  md={12} className="home-about-social">
+
+      <br />
+      <br />
+      <br />
+      
+      <h3>Under-Developement</h3>
+
+    </Col>
+  </Row>
+
+      </Container>
+    </Container>
+
+
+
+  
+  )
 }
 
 export default Resume
