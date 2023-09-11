@@ -42,7 +42,9 @@ const Projects = () => {
               imgPath={exp3}
               isBlog={false}
               title="Exp3-ELM"
-              description="comprehensive evaluation and analysis of the EXP3 algorithm's performance within stochastic environments, contributing valuable insights into its applicability and effectiveness. This project required a understanding of both reinforcement learning principles and stochastic systems."
+              description="Did a comprehensively assess of EXP3 algorithm’s efficacy in stochastic decision-making contexts. This encompassed an in-depth analysis of both the EXP and EXP3ELM algorithms, from the paper by the Yevgeny Seldin
+              of JMLR 10th European Workshop on Reinforcement Learning. Through empirical simulations, aimed to unravel
+              their effectiveness and applicability across various scenarios."
               ghLink="https://github.com/s-brajendra/Exp-3-EXP3ELM-"
             />
             </Col>
@@ -54,7 +56,9 @@ const Projects = () => {
               imgPath={p2p}
               isBlog={false}
               title="p2p-car-Pooling"
-              description="Peer-to-peer carpooling using blockchain is a decentralized system where individuals directly connect to share rides. Blockchain ensures secure, transparent transactions and trustless verification, enabling seamless payment and ride arrangements without intermediaries"
+              description="Created decentralized carpooling system using blockchain, enabling direct peer-to-peer ride sharing. eliminating the need for intermediaries.
+
+              Employing ReactJS and the Truffle framework, constructed and rigorously tested smart contracts. ReactJS enhanced front-end interactivity and Truffle as comprehensive environment for smart contract development, boosting system robustness"
               ghLink="https://github.com/s-brajendra/P2P-Car-Pooling"
             />
             </Col>
